@@ -20,13 +20,24 @@ const users = [
 // let users = [];
 
 function loadPage() {
-  fetch("https://jsonplaceholder.typicode.com/users")
+  fetch("https://randomuser.me/api/?results=50")
     .then((response) => response.json())
     .then((json) => {
-      json.map((item) => {
-        colocarCard(item);
-      });
+      json.results.map((result) => console.log(result));
+      console.log(json);
+      console.log(json.results);
+      // json.map((item) => {
+      //   colocarCard(item);
+      // });
     });
+
+  // fetch("https://jsonplaceholder.typicode.com/users")
+  //   .then((response) => response.json())
+  //   .then((json) => {
+  //     json.map((item) => {
+  //       colocarCard(item);
+  //     });
+  //   });
 
   /*
   fetch("http://127.0.0.1:8080")
