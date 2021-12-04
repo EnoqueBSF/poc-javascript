@@ -8,3 +8,6 @@ Utilizar api: https://randomuser.me/api/?results=50
 - Construir layout para male e female
 - Mostrar imagem (large, medium, thumbnail)
 - Mostrar username, password, data que foi registrado, pais e bairro, postcode, firstname e lastname, email e vender.
+
+Atalhos vscode:
+https://claudiojunior.me/posts/atalhos-do-vs-code
